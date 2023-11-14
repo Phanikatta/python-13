@@ -1,0 +1,30 @@
+#Ass-1
+L=[]
+n=int(input())
+for i in range(n):
+	x=int(input())
+	L.append(x)
+minn=L[0]
+for i in range(n):
+	if L[i]<minn:
+		minn=L[i]
+print(minn)
+
+#Ass-2
+L=[]
+n=int(input())
+for i in range(n):
+	x=int(input())
+	L.append(x)
+minn=min(L)
+maxx=max(L)
+print(maxx-minn)
+
+#Ass-3
+L=[]
+n=int(input())
+for i in range(n):
+	x=int(input())
+	L.append(x)
+print(L[-n])
+print(L[-1])
